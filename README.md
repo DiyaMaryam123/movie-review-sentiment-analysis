@@ -63,22 +63,6 @@ The system is designed with **separate frontend and backend components**, ensuri
 
 ---
 
-## 📂 Project Structure
-
-movie-review-sentiment-analysis/
-│
-├── frontend/          # UI (HTML, CSS, Nginx)
-├── backend/           # API + ML Model
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── sentiment_model.keras
-│   ├── tokenizer.pkl
-│
-└── README.md
-
-
----
-
 ## 🚀 Features
 - 🔍 Real-time sentiment prediction
 - 🤖 Deep Learning (LSTM-based model)
@@ -88,15 +72,3 @@ movie-review-sentiment-analysis/
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home Page
-![Home](frontend/bg1.jpg)
-
-### ✅ Positive Prediction
-![Positive](frontend/bg4.jpg)
-
-### ❌ Negative Prediction
-(Add your negative screenshot here)
-
----
