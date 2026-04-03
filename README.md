@@ -1,4 +1,4 @@
-# 🎬 Movie Review Rating Prediction System
+# 🎬 Movie Review Sentiment Analysis System
 
 ## 📌 Overview
 This project is a **deep learning-based sentiment analysis system** that predicts whether a movie review is **positive or negative**.
@@ -48,20 +48,8 @@ This project demonstrates a complete **end-to-end pipeline** including:
 - Lowercasing text
 - Removing special characters
 - Tokenization (10,000 vocabulary size)
-- Padding to fixed length (200 tokens) :contentReference[oaicite:2]{index=2}
+- Padding to fixed length (200 tokens)
 
----
-
-## 📈 Model Performance
-
-| Metric | Value |
-|------|------|
-| Test Accuracy | **86.73%** |
-| Validation Accuracy | ~87% |
-| Training Accuracy | ~95% |
-| Loss | 0.3177 |
-
-👉 Model shows strong performance with slight overfitting controlled using Dropout and EarlyStopping :contentReference[oaicite:3]{index=3}
 
 ---
 
